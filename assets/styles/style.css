@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	 background-image: url("https://www.shillingtoneducation.com/content-blog/uploads/2017/11/photo-of-designer-creating-a-website.jpg"); 
+	 background-repeat: no-repeat; 
+	 background-size: cover; 
+	/*height: 120vh; */
+}
