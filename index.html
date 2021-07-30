@@ -17,54 +17,117 @@
     
     <!-- Animate.css CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
    
 	<title>Bianca Tan Web Portfolio</title>
 </head>
 
 <body>
 
-	<!--  Nav Bar-->
-		 <div class=" ">
-		     <div class="navbar navbar-expand-lg bg-light navbar-light" >
-		         <div class="navbar-nav">
-		             <a href="#Home" class="nav-item nav-link active">Home</a>
-		             <a href="#About" class="nav-item nav-link">About</a>
-		             <a href="" class="nav-item nav-link">Service</a>
-		             <a href="" class="nav-item nav-link">Experience</a>
-		             <a href="" class="nav-item nav-link">Portfolio</a>
-		             <a href="" class="nav-item nav-link">Contact</a>
-		             </div>
-		         </div>
-		<!--  Nav Bar-->
-		<!--  <div class="container-fluid">
-		     <div class="navbar navbar-expand-lg bg-light navbar-light" >
-		         <div class="navbar-nav ml-auto">
-		             <a href="" class="nav-item nav-link active">Home</a>
-		             <a href="" class="nav-item nav-link">About</a>
-		             <a href="" class="nav-item nav-link">Service</a>
-		             <a href="" class="nav-item nav-link">Experience</a>
-		             <a href="" class="nav-item nav-link">Portfolio</a>
-		             <a href="" class="nav-item nav-link">Contact</a>
-		             </div>
-		         </div> -->
+	     <div class="header-container">	
+	     	<!--  Nav Bar Horizontal-->
+	     <!-- 	<div class="navbar_horizontal">
+	     		     <div class="navbar navbar-expand-lg bg-light navbar-light" >
+	     		         <div class="navbar-nav sticky-top">
+	     		             <a href="#Home" class="nav-item nav-link active">Home</a>
+	     		             <a href="#About" class="nav-item nav-link">About</a>
+	     		             <a href="#Experience" class="nav-item nav-link">Experience</a>
+	     		             <a href="#Portfolio" class="nav-item nav-link">Portfolio</a>
+	     		             <a href="#Contact" class="nav-item nav-link">Contact</a>
+	     		         </div>
+	     		     </div>
+	     	</div> -->
 
-	<div id="Home" class="d-flex flex-row p-3">
+	     	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	     	  <a class="navbar-brand" href="#">Navbar</a>
+	     	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	     	    <span class="navbar-toggler-icon"></span>
+	     	  </button>
 
-		<!-- Name and Subtitle -->
-		 <div class="text-center mb-4">
-             <img  class="rounded-circle" src="./assets/images/bianca.jpg"  alt="image unvailable" width="200">
-             <h2>Bianca Tan</h2>
-             <h4>Full-Stack Web Developer</h4>
-        </div>
+	     	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	     	    <ul class="navbar-nav mr-auto">
+	     	      <li class="nav-item active">
+	     	        <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
+	     	      </li>
+	     	      <li class="nav-item">
+	     	        <a class="nav-link" href="#">Skills</a>
+	     	      </li>
+	     	       <li class="nav-item">
+	     	        <a class="nav-link" href="#">Education</a>
+	     	      </li>
+	     	       <li class="nav-item">
+	     	        <a class="nav-link" href="#">Work Experiece</a>
+	     	      </li>
+	     	      <li class="nav-item dropdown">
+	     	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	     	          Projects
+	     	        </a>
+	     	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	     	          <a class="dropdown-item" href="#">Portfolio</a>
+	     	          <a class="dropdown-item" href="#">Flex Box</a>
+	     	          <div class="dropdown-divider"></div>
+	     	          <a class="dropdown-item" href="#">ALL PROJECTS</a>
+	     	        </div>
+	     	      </li>
+	     	    </ul>
+	     	  </div>
+	     	</nav>
 
-        <!-- Description -->
-        <div class="text-justify p-4">
-            I am a hardworking and passionate aspiring Engineer who has aquired extensive knowledge in the field of Electronics Engineering at a Bachelor's Degree level. My previous involvement in various organizations such as being the Engineering Batch Government Vice President and Electronics and Communications Engineering Society President has trainined me to develop various soft skills such as being a team player, and learning to be goal oriented.My latest work experience as Software Development Engineer in Test Intern has trained my technical skills being versed in programming languages such as C# and C++. I am devoted in investing my career to pursue Software Engineering/Development and I am willing to take on new challenges to pursue this.
-        </div>
+	     	 <!--  Landing Page-->
+	     	<div class="d-flex flex-row ">
+	     		<!-- profile picture -->
+	     		<div class="img mr-5">
+	     				<img  class="img-fluid" src="./assets/images/bianca.jpg"  alt="image unvailable" width="3500" >
+	     		</div>
+	     		<!-- text content -->
+	     		<div class="text-center text-black mt-5">
+	     			<!-- Name and Subtitle -->
+	     			 <div class="text-left ml-4 p-3">
+	     			 	 <h2 id="title-text"> Hello,</h2>
+	     	             <h2 id="title-text"> I am Bianca Tan</h2>
+	     	             <h4 id="subtitle-text" class=" mb-4">Full-Stack Web Developer</h4>
+	     	        </div>
+
+	     	        <!-- Description -->
+	     	        <div class="text-justify wrap text-white">
+	     	        	<p class="ml-5 mr-5 mb-5">
+	     	        		I am a hardworking and passionate aspiring Engineer who has aquired extensive knowledge in the field of Electronics Engineering at a Bachelor's Degree level. My previous involvement in various organizations such as being the Engineering Batch Government Vice President and Electronics and Communications Engineering Society President has trainined me to develop various soft skills such as being a team player, and learning to be goal oriented.My latest work experience as Software Development Engineer in Test Intern has trained my technical skills being versed in programming languages such as C# and C++. I am devoted in investing my career to pursue Software Engineering/Development and I am willing to take on new challenges to pursue this.
+	     	        	</p>  
+	     	        		<!-- contact and hire me buttons -->
+	     	        		<div class="d-flex ml-5 mt-3">
+	     	        	  		<div class="btn btn-light p-3 text-left">Contact Me</div>
+	     	        	  	</div> 
+	     	        </div>
+	     		</div>	
+	     	</div>
+
+	     	<!-- footer -->
+	     	<section id="pre-footer">
+	     	  	<div class="d-flex justify-content-around bg-light">
+	     	  		<div class="bg-light p-1 text-center"> Contact Number 0999 889 2825</div>
+	     	  		<div class="bg-light p-1 text-center">Email: biancaclarissetan@gmail.com</div>
+	     	  	</div>
+	     	  </div>
+	     	</section>
+
+	     	<footer>
+	     	    <!-- Creates an inline element -->
+	     	    <span>Terms of Service</span>
+	     	    <span>|</span>
+	     	    <span>Privacy Policy</span>
+	     	    <span>|</span>
+	     	    <span>&copy; 2017-2019 Zuitt. All Rights Reserved</span>
+	     	</footer>
+	     </div>
 		
-	</div>
 
+		<!--  Nav Bar Horizontal-->
 
+		
 
 
 

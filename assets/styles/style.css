@@ -1,11 +1,55 @@
 *{
 	margin:0;
 	padding:0;
+	font-family: "Poppins"
+	font-size:10vw;
 }
 
 body{
-	 background-image: url("https://www.shillingtoneducation.com/content-blog/uploads/2017/11/photo-of-designer-creating-a-website.jpg"); 
+	 background-image: url("https://images.pexels.com/photos/7135013/pexels-photo-7135013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
 	 background-repeat: no-repeat; 
 	 background-size: cover; 
-	/*height: 120vh; */
 }
+
+#title-text {
+	font-size:5vw;
+}
+
+#subtitle-text{
+	font-size:3vw;
+}
+
+p{
+	font-size:1.3vw ;
+	width: 120vh;
+}
+
+#copyright{
+	font-size: 1vw;
+}
+
+/*footer {
+	padding: 0.7rem;
+}
+*/
+footer span {
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	font-size:0.5vw;
+}
+
+
+	/*height: 120vh; */
+
+
+/*#pre-footer div{
+	
+	display: inline-block;
+	width:15%;
+}*/
+
+
+/*#pre-footer div> *{
+	margin-top:0.3rem;
+	margin-bottom:0.3rem;
+}*/
