@@ -12,12 +12,13 @@ body{
 	 background-size: cover; 
 }
 
-body #profile{
+body {
 	background-image: url('https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 
 	 background-repeat: no-repeat; 
 	 background-size: cover; 
 	 background-color:black;
+	 position: relative;
 }
 
 /*font size*/
@@ -117,10 +118,14 @@ footer span {
 	border-radius: 12px;
 	color: white;	
 	padding:7rem;
-
-
-
 }
+
+
+.form-group {
+	color:white;
+}
+
+
 
 
 #contactinfo
@@ -134,6 +139,4 @@ footer span {
 
 
 }
-
-
 
