@@ -17,6 +17,7 @@ body #profile{
 
 	 background-repeat: no-repeat; 
 	 background-size: cover; 
+	 background-color:black;
 }
 
 /*font size*/
@@ -115,8 +116,8 @@ footer span {
 	background:grey;
 	border-radius: 12px;
 	color: white;	
-	padding:4rem;
-	overflow-wrap: break-word;
+	padding:7rem;
+
 
 
 }
@@ -128,7 +129,8 @@ footer span {
 
 	color: white;	
 
-	width:400px;
+	width:25vw;
+
 
 
 }
